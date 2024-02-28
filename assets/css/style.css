@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+:root {
+    --primary-color: #DA1D25;
+}
+
+
+
+/* Header section start  */
+header {
+    height: 70px;
+    background-color: black;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+header .logo {
+    margin-left: 70px;
+}
+
+header .logo img {
+    height: 80%;
+    margin-top: 9px;
+}
+
+header nav {
+    padding-top: 25px;
+}
+
+header nav ul {}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    /* background: red; */
+    padding: 10px 15px;
+    font-size: 20px;
+    color: white;
+
+}
+
+header nav ul li a.active {
+    color: var(--primary-color);
+
+}
+
+header .auth {
+    margin-top: 15px;
+    margin-right: 70px;
+}
+
+header .auth button {
+    border: none;
+    padding: 10px 30px;
+    font-size: 17px;
+    color: white;
+    background: transparent;
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+}
+
+/* Header section end  */
+
+
+/* Banner section end  */
+.banner {
+    height: 80vh;
+    background: url(../image/ser.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+.banner .content{
+    width: 70%;
+}
+
+.banner .bg-shadow {
+    height: 80vh;
+    background: #000000c2;
+}
+
+.banner .bg-shadow h1 {
+    font-size: 100px;
+    text-transform: uppercase;
+    padding-top: 70px;
+}
+
+.banner .bg-shadow h2 {
+    font-size: 70px;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+.banner .bg-shadow h2 span{
+    color: white;
+}
+
+.banner .bg-shadow p {
+    font-size: 30px;
+}
+
+.banner .bg-shadow .d-flex {
+    padding-top: 50px;
+}
+
+.banner .bg-shadow .d-flex button {
+    border: none;
+    padding: 10px 30px;
+    font-size: 17px;
+    color: white;
+    background: var(--primary-color);
+    border-radius: 10px;
+    text-transform: uppercase;
+    margin-right: 50px;
+}
+
+.banner .bg-shadow .d-flex span:nth-child(2) {
+    color: var(--primary-color);
+}
+
+.banner .bg-shadow .d-flex span {
+    font-size: 20px;
+}
+
+/* Banner section end  */
